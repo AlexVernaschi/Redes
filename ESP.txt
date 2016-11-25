@@ -1,0 +1,11 @@
+En el area as20 agregar 2 routers. R24 unido a R21 y a la barra S y R25 va unida a R23 y la barra S.
+
+En el area del ospf agregar un router R104 conectado a 102 y 103. Dos barras nuevas una para el 102 y una para el 103.
+Un servidor MX1 en cualquiera de las barras nuevas.
+
+Mover la pc (y la barra A) al balancer
+Renombrar balancer como R2
+
+El tunel construirlo entre R201 y R2 en lugar del que estaba
+
+En el R201 name.server game.info
